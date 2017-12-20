@@ -1,0 +1,16 @@
+#mainContent{
+	min-height: 0;	
+}
+
+#banner{
+	min-height: 200px;
+	padding: 0;
+}
+
+#banner h1{
+	padding: 1em;
+}
+
+#banner h1:after{
+	left: 1em;
+}

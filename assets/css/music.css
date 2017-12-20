@@ -1,0 +1,69 @@
+#mainContent{
+	padding: 20px 0;
+	padding-bottom: 0;
+}
+
+#articles{
+	/*padding-left: 20px;*/
+	padding-bottom: 12px;
+}
+
+#articles .article{
+	position: relative;
+	width: calc(50% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: #282725;
+}
+
+.article .article-image{
+	position: relative;
+	height: 228px;
+	background: #3a3a3a;
+	overflow: hidden;
+}
+
+.article .article-image img{
+	width: 100%;
+}
+
+.article .article-image img:before{
+	
+}
+
+.article .article-text{
+	position: relative;
+	padding: 20px;
+	padding-top: 24px;
+	padding-bottom: 12px;
+}
+
+.article .article-text h3{
+	font-family: "Raleway Bold", sans-serif;
+	color: #fff;
+	font-size: 1.3em;
+	line-height: 1.1em;
+}
+
+.article .article-text p{
+	margin-top: 8px;
+	color: #999;
+	font-size: 0.95em;
+	line-height: 1.45em;
+}
+
+.article .article-text strong{
+	color: #ccc;
+	font-family: "OpenSans bold", sans-serif !important;
+}
+
+.article .article-actions{
+	padding: 20px;
+	padding-top: 12px;
+}
+
+.article .article-actions .article-action{
+	color: #777;
+	font-size: 16px;
+	margin-right: 12px;
+}

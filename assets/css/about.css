@@ -1,0 +1,28 @@
+#mainContent{
+	min-height: 0;
+	color: #888;
+	padding-bottom: 3em;
+}
+
+#mainContent .section-container{
+	padding: 2em 5em;
+}
+
+#banner h1{
+	padding: 1em 0;
+	margin-bottom: -0.4em;
+}
+
+p{
+	font-size: 1.5em;
+	line-height: 2em;
+	font-family: "Open Sans Light";
+	max-width: 850px;
+}
+
+h2{
+	font-size: 2em;
+	font-family: "Open Sans Light";
+	max-width: 850px;
+	color: #aaa;
+}

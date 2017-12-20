@@ -1,0 +1,76 @@
+#mainContent{
+	padding: 20px 0;
+	padding-bottom: 0;
+}
+
+#articles{
+	/*padding-left: 20px;*/
+	padding-bottom: 12px;
+}
+
+#articles .article{
+	position: relative;
+	width: calc(25% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: #282725;
+}
+
+.article .article-image{
+	position: relative;
+	height: 128px;
+	background: #3a3a3a;
+	overflow: hidden;
+}
+
+.article .article-image img{
+	width: 100%;
+}
+
+.article .article-image img:before{
+	
+}
+
+.article .article-text{
+	position: relative;
+	padding: 20px;
+	padding-top: 24px;
+	padding-bottom: 8px;
+}
+
+.article .article-text h3{
+	font-family: "Raleway Bold", sans-serif;
+	color: #fff;
+	font-size: 1.3em;
+	line-height: 1.1em;
+	margin-bottom: 4px;
+}
+
+.article .article-text h5{
+	font-family: "Raleway Bold", sans-serif;
+	color: #888;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	margin-bottom: 8px;
+}
+
+.article .article-text p{
+	color: #999;
+	font-size: 0.95em;
+	line-height: 1.45em;
+}
+
+.article .article-text p i{
+	font-family: "OpenSans bold", sans-serif !important;
+}
+
+.article .article-actions{
+	padding: 20px;
+	padding-top: 12px;
+}
+
+.article .article-actions .article-action{
+	color: #777;
+	font-size: 16px;
+	margin-right: 12px;
+}
